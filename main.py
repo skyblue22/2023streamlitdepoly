@@ -82,7 +82,7 @@ if authentication_status == None:
             
         
     PAGES = {"Home":home, "How to use":how_to_use, "Contact us":contact_us}
-    selection = st.radio('Go to', list(PAGES.keys()), horizontal=True)
+    selection = st.radio('Go to', list(PAGES.keys()))
     page = PAGES[selection]
     page.app()
     
@@ -91,7 +91,7 @@ if authentication_status:
     auth_status = 1
     
     PAGES = {"Home":home, "How to use":how_to_use, "Contact us":contact_us, "Individual prediction": individualprediction}
-    selection = st.radio('Go to', list(PAGES.keys()), horizontal=True)
+    selection = st.radio('Go to', list(PAGES.keys()))
     page = PAGES[selection]
     page.app()
 
