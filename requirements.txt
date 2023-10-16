@@ -2,7 +2,7 @@ numpy==1.22.2
 pickleshare==0.7.5
 lifelines==0.26.4
 cloudpickle==2.2.0
-streamlit==1.27.0
+streamlit==1.5.1
 scikit-learn==1.0.2
 scikit-survival==0.17.0
 urllib3==1.26.8
