@@ -99,7 +99,7 @@ st.markdown("""
 </nav>
 """, unsafe_allow_html=True)
 
-PAGES = {"Home":home, "How to use":how_to_use, "Contact us":contact_us}
+PAGES = {"Home":home, "How to use":how_to_use, "Contact us":contact_us, "Individual prediction": individualprediction}
 selection = st.radio('Go to', list(PAGES.keys()))
 page = PAGES[selection]
 page.app()
