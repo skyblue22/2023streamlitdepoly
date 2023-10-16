@@ -7,13 +7,13 @@ Created on Sun Dec 18 17:56:00 2022
 from deta import Deta 
 
 #Load the environment variables
-DETA_KEY = "c0rfxz26_U2JqBTxgYE7wWduPuFz7CbyB65Chz6aR"
+DETA_KEY = "c01ztsist2f_UskmnvLjkekZ5io6zsP8DP43rXe3AN94"
 
 #Initialize with a project key 
 deta = Deta(DETA_KEY)
 
 #This is how to create/connect a database
-db = deta.Base("users_db")
+db = deta.Base("LASF_user")
 
 def insert_user(username, name, password):
     """Returns the user on a successful user creation, otherwise raises an error"""
